@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(46, 44, 44);
+    height: 500px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    margin: 9% auto;
+    border-radius: 300px;
+    border: 10px solid white;
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    height: 30px;
+    padding:40px;
+    font-weight: bolder;
+    font-size: 40px;
+    background-color: white;
+    box-shadow: 3px 3px 3px grey;
+}
+h3{
+    color:white;
+}
